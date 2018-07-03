@@ -1,18 +1,18 @@
 
 ;; ----- smex-history -----
 (
+ eval-buffer
  replace-string
  info
  nodejs-repl-send-buffer
  nodejs-repl
- eval-buffer
  package-autoremove
  customize-group
 )
 
 ;; ----- smex-data -----
 (
- (eval-buffer . 7)
+ (eval-buffer . 8)
  (customize-group . 1)
  (package-autoremove . 2)
  (nodejs-repl . 1)
