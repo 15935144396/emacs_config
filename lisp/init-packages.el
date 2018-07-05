@@ -24,6 +24,7 @@
 				   nodejs-repl
 				   exec-path-from-shell
 				   popwin
+				   reveal-in-osx-finder
 				   )  "Default packages")
 
 (setq package-selected-packages fengww/packages)
@@ -51,6 +52,7 @@
 ;;(add-hook 'emacs-lisp-mode-hook 'smartparens-mode)
 (smartparens-global-mode t)
 
+(sp-local-pair 'emacs-lisp-mode "'" nil :actions nil)
 ;; config js2-mode for js files
 (setq auto-mode-alist
 	  (append

@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ ibuffer
+ reveal-in-osx-finder
+ counsel-git
  find-file
  eval-buffer
  replace-string
  info
- nodejs-repl-send-buffer
- nodejs-repl
- package-autoremove
 )
 
 ;; ----- smex-data -----
@@ -20,4 +20,7 @@
  (info . 5)
  (replace-string . 2)
  (find-file . 7)
+ (counsel-git . 2)
+ (reveal-in-osx-finder . 1)
+ (ibuffer . 1)
 )
